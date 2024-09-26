@@ -13,5 +13,5 @@ adj2 = input("pick an adjective\n>")
 Gamesport = input("pick a game or sport\n>")
 emotion = input("pick a emotion\n>")
 bodypart = input("pick a body part\n>")
-# the final mad lib
+# the FINAL mad lib
 print(" Once there was a man named " + name + " Thay were " + adj1 + " and " + adj2 + " Thay liked to play " + Gamesport + " thay are feeling " + emotion + " today because thay broke there " + bodypart + " playing " + Gamesport + "!!!" )

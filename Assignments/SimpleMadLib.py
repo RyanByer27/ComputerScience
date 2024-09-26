@@ -8,8 +8,8 @@
 print("Weclome to a simple mad lib")
 # all variables
 name = input("Pick a name\n>")
-adj1 = input("pick ana adjective\n>")
-adj2 = input("pick ana adjective\n>")
+adj1 = input("pick an adjective\n>")
+adj2 = input("pick an adjective\n>")
 Gamesport = input("pick a game or sport\n>")
 emotion = input("pick a emotion\n>")
 bodypart = input("pick a body part\n>")

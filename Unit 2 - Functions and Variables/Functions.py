@@ -6,14 +6,13 @@ def my_function():
 
 print("oswskit rules")
 
-def topfivemovies():
-    print("Ryans Top Five Movies")
-    print("1. cars")
-    print("2. cars 2")
-    print("3. cars 3")
-    print("4. lego movie")
-    print("5. lego moive 2")
-
+def top_five_movies(a,b,c,d,e):
+    print("Top Five Movies")
+    print("1." + a)
+    print("2." + b)
+    print("3." + c)
+    print("4." + d)
+    print("5." + e)
 
 def add(x, y):
     print(x + y)
@@ -21,3 +20,5 @@ def add(x, y):
 add(10 , 5)
 add(10 , 80)
 add("cat", "dog")
+
+top_five_movies()

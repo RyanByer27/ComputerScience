@@ -19,6 +19,3 @@ def add(x, y):
 
 add(10 , 5)
 add(10 , 80)
-add("cat", "dog")
-
-top_five_movies()

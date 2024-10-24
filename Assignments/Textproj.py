@@ -20,11 +20,13 @@ def Waking_Up():#Start
 def Geting_ready():#path 1
     print("You got up and ready its now 7:45 what do you do?")
     print("1. Drive To school")
-    print("2. Ride with a friend to school")
+    print("2. Eat Brakfast")
     print("3. Go on you phone for a little")
     print("4. Fake being sick")
     print("5. skip school")
     choice2 = input(">")
+    if choice2 == "1":
+        DriveToSchool()
 
 def Go_on_Phone():#path 2
     print("You just watched a funny tiktok and now you look at the time and its 8 what do you do?")
@@ -41,31 +43,14 @@ def Go_to_bed():
 
 def DriveToSchool():
     print("You got to school at 8 what do you do know")
+    print("1. Go to home room")
+    print("2. Eat brekfast")
+    print("3. Go find your friend")
+    choice5 = input(">")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def eatbrekfast():
+    print("You just got done eating and it is 8 what do you do now?")
+    print("1. Go to school")
+    print("2. Play fortnite")
 
 Waking_Up()

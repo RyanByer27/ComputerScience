@@ -12,3 +12,5 @@ elif speed < 157:
     print("Category 4")
 elif speed >= 157:
     print("Category 5")
+else 
+    print("Invalid input")

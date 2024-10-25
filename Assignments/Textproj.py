@@ -27,6 +27,8 @@ def Geting_ready():#path 1
     choice2 = input(">")
     if choice2 == "1":
         DriveToSchool()
+    elif choice2 == "2":
+        eatbrekfast()
 
 def Go_on_Phone():#path 2
     print("You just watched a funny tiktok and now you look at the time and its 8 what do you do?")
@@ -52,5 +54,6 @@ def eatbrekfast():
     print("You just got done eating and it is 8 what do you do now?")
     print("1. Go to school")
     print("2. Play fortnite")
+    choice6 = input(">")
 
 Waking_Up()

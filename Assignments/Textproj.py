@@ -56,4 +56,8 @@ def eatbrekfast():
     print("2. Play fortnite")
     choice6 = input(">")
 
+
 Waking_Up()
+
+
+
